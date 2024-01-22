@@ -1,0 +1,19 @@
+:root {
+  --background: #f9f7fe;
+  --font-1: "Poppins", sans-serif;
+  --font-2: "Playfair Display", serif;
+}
+body {
+  background-color: var(--background);
+  margin: 0 50px;
+  justify-content: center;
+}
+h1 {
+  font-family: var(--font-1);
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  font-family: var(--font-2);
+  background: white;
+}

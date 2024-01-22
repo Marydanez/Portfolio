@@ -1,7 +1,0 @@
-:root {
-  --background: #7952b3;
-}
-body {
-  background: var(--background);
-  margin: 0 50px;
-}
