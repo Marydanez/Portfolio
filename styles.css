@@ -28,6 +28,9 @@ h2 {
   text-align: center;
   padding: 160px 0;
 }
+.header p {
+  font-weight: bold;
+}
 .header h2 {
   font-family: var(--font-1);
   font-weight: normal;
@@ -39,7 +42,7 @@ h2 {
   background-color: var(--btn-color);
   border: 1px solid var(--btn-color);
   color: white;
-  border-radius: 3px;
+  border-radius: 6px;
   font-family: var(--font-1);
   font-weight: lighter;
   font-size: 15px;
@@ -60,7 +63,7 @@ a:hover {
   background-color: white;
   border: 1px solid var(--btn-color);
   color: var(--btn-color);
-  border-radius: 3px;
+  border-radius: 6px;
   font-family: var(--font-1);
   font-weight: lighter;
   font-size: 20px;
@@ -76,8 +79,34 @@ a:hover {
 .project-description {
   padding: 120px 60px;
 }
+/*About Page*/
+.about-p {
+  font-size: 18px;
+  font-weight: bold;
+}
+.about-d {
+  font-size: 16px;
+  font-weight: normal;
+}
+.container {
+  text-align: left;
+  padding: 160px 0;
+}
+.container .img-fluid {
+  max-width: 100%;
+}
+.container h1 {
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 80px;
+}
+.container a {
+  font-size: 20px;
+  line-height: 2;
+}
 @media (max-width: 960px) {
-  .project-description {
+  .project-description,
+  .container {
     padding: 0;
     text-align: center;
   }
