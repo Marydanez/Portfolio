@@ -94,6 +94,8 @@ a:hover {
 }
 .container .img-fluid {
   max-width: 100%;
+  justify-content: center;
+  text-align: center;
 }
 .container h1 {
   font-size: 70px;
