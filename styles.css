@@ -7,7 +7,8 @@
 body {
   justify-content: center;
 }
-p {
+p,
+h3 {
   font-family: var(--font-1);
   font-weight: normal;
   font-size: 36px;
@@ -120,6 +121,18 @@ a:hover {
 .work-p {
   font-size: 14px;
 }
+/*Contact Page*/
+.contact h3 {
+  font-family: var(--font-1);
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.contact a {
+  text-decoration: underline;
+  color: #0d6efd;
+  font-size: 14px;
+}
 @media (max-width: 960px) {
   .project-description,
   .container {
@@ -132,5 +145,8 @@ a:hover {
   }
   .container-fluid {
     padding: 80px 20px;
+  }
+  .contact h1 {
+    max-width: 100%;
   }
 }
