@@ -133,6 +133,35 @@ a:hover {
   color: #0d6efd;
   font-size: 14px;
 }
+/*Navbar*/
+.logo {
+  max-height: 40px;
+}
+.container-nav {
+  padding: 20px 0;
+}
+nav ul {
+  margin: 0;
+  justify-content: space-between;
+}
+nav a {
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--btn-color) !important;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-family: var(--font-1);
+  font-size: 14px;
+  font-weight: medium;
+}
 @media (max-width: 960px) {
   .project-description,
   .container {
