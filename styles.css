@@ -162,7 +162,66 @@ nav li {
   font-size: 14px;
   font-weight: medium;
 }
-@media (max-width: 960px) {
+/*Footer*/
+footer {
+  margin: 60px 0;
+  color: black;
+  text-align: center;
+}
+footer .contact-box h2 {
+  font-family: var(--font-2);
+  text-align: start;
+  font-size: 48px;
+}
+footer .contact-details {
+  font-family: var(--font-1);
+  font-weight: medium;
+  font-size: 24px;
+}
+footer .contact-box-left {
+  margin-top: 13px;
+}
+footer a {
+  text-decoration-style: none;
+  color: #272142;
+}
+footer .icons a {
+  margin: 0 20px;
+  border-radius: 50%;
+  font-size: 18px;
+  color: var(--btn-color);
+  background-color: var(--background);
+  padding: 10px 14px;
+  border: #f9f7fe;
+  transition: all 150ms ease-in-out;
+}
+footer .icons a:hover {
+  color: white;
+  background: var(--btn-color);
+}
+footer .contact-box {
+  background-color: var(--background);
+  padding: 30px 120px;
+  margin: 250px;
+  height: 200px;
+  border-radius: 20px;
+}
+footer .contact-box p {
+  margin: 0;
+  font-size: 18px;
+  text-align: start;
+}
+footer .contact-box-btn {
+  text-align: end;
+  margin-top: -110px;
+}
+footer .contact-box-btn a {
+  font-size: 18px;
+  padding: 20px;
+  width: 200px;
+}
+
+@media (max-width: 1282px) {
   .project-description,
   .container {
     padding: 0;
@@ -177,5 +236,11 @@ nav li {
   }
   .contact h1 {
     max-width: 100%;
+  }
+  footer .contact-box h2 {
+    font-size: 24px;
+  }
+  footer .contact-box p {
+    font-size: 18px;
   }
 }
