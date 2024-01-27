@@ -252,11 +252,26 @@ footer .contact-box-btn a {
   }
   .contact h1 {
     max-width: 100%;
+    text-align: center;
   }
   footer .contact-box h2 {
     font-size: 24px;
   }
   footer .contact-box p {
     font-size: 18px;
+  }
+  .contact-details h3 {
+    font-size: 16px;
+  }
+  form {
+    margin: 0;
+    display: block;
+    text-align: center;
+    width: 500px;
+  }
+  .form-container {
+    margin: 0;
+    display: block;
+    text-align: center;
   }
 }
