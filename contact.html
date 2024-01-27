@@ -51,9 +51,38 @@
     </div>
     <div class="contact container">
       <div class="row mt-5 mb-5">
-        <div class="text-left">
-          <h1 class="mb-5">Let's get in touch!</h1>
-          <div class="contact">
+        <h1 class="mb-5">Let's get in touch!</h1>
+        <div class="col-md-8 form-container text-left">
+          <div class="form">
+            <form action="#" method="post" class="border p-3 rounded mb-3">
+              <div class="mb-3">
+                <label for="email">Email:</label>
+                <br />
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control"
+                  required
+                  autofocus
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message">Your Message:</label>
+                <br />
+                <input
+                  type="text"
+                  id="message"
+                  class="form-control"
+                  required
+                  autofocus
+                />
+              </div>
+              <div class="mb-3">
+                <submit class="btn btn-branding">Send</submit>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-4 contact p-2">
             <h3 class="mb-0">Email</h3>
             <a href="mailto:marydanezmarquez@gmail.com"
               >marydanezmarquez@gmail.com</a
@@ -65,49 +94,32 @@
           </div>
         </div>
       </div>
-      <footer>
-        <div class="row contact-box mb-5 d-none d-lg-flex">
-          <div class="col contact-box-left">
-            <h2 class="mb-3">Work Inquiry</h2>
-            <p class="text-muted">Let's work together</p>
-          </div>
-          <div class="col contact-box-btn">
-            <div>
-              <a href="contact.html" class="btn btn-branding"
-                >Let's talk here</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="contact-details">
-          <h3 class="mb-5">
-            <a
-              href="mailto:marydanezmarquez@gmail.com"
-              class="text-decoration-none"
-              >marydanezmarquez@gmail.com</a
-            >
-          </h3>
-          <div class="icons mb-5">
-            <a href="#" target="_blank">
-              <i class="fa-brands fa-facebook-f"></i
-            ></a>
-            <a href="https://github.com/Marydanez" target="_blank"
-              ><i class="fa-brands fa-github"></i
-            ></a>
-            <a href="#" target="_blank"
-              ><i class="fa-brands fa-instagram"></i
-            ></a>
-          </div>
-          <p class="text-center">
-            ✌️ This website was coded by Marianny Marquez, and it's
-            <a
-              href="https://github.com/Marydanez/Portfolio"
-              class="open-sourced"
-              >open-sourced</a
-            >
-          </p>
-        </div>
-      </footer>
     </div>
+    <footer>
+      <div class="contact-details">
+        <h3 class="mb-5">
+          <a
+            href="mailto:marydanezmarquez@gmail.com"
+            class="text-decoration-none"
+            >marydanezmarquez@gmail.com</a
+          >
+        </h3>
+        <div class="icons mb-5">
+          <a href="#" target="_blank">
+            <i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="https://github.com/Marydanez" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p class="text-center">
+          ✌️ This website was coded by Marianny Marquez, and it's
+          <a href="https://github.com/Marydanez/Portfolio" class="open-sourced"
+            >open-sourced</a
+          >
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

@@ -133,6 +133,13 @@ a:hover {
   color: #0d6efd;
   font-size: 14px;
 }
+form {
+  width: 600px;
+}
+.form-container {
+  display: flex;
+  font-family: var(--font-1);
+}
 /*Navbar*/
 .logo {
   max-height: 40px;
@@ -205,6 +212,9 @@ footer .contact-box {
   margin: 250px;
   height: 200px;
   border-radius: 20px;
+}
+footer p {
+  font-size: 18px;
 }
 footer .contact-box p {
   margin: 0;
